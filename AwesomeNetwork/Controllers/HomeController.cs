@@ -5,12 +5,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AwesomeNetwork.Models;
-using AwesomeNetwork.Data.UoW;
+using BLL_lib.Models;
+using DAL_lib.UoW;
 using AutoMapper;
-using AwesomeNetwork.ViewModels.Account;
+using BLL_lib.ViewModels.Account;
 using Microsoft.AspNetCore.Identity;
-using AwesomeNetwork.Models.Users;
+using BLL_lib.Models.Users;
 
 namespace AwesomeNetwork.Controllers
 {

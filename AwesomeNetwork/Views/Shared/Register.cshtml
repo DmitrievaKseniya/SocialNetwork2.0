@@ -2,7 +2,7 @@
     ViewData["Title"] = "Register";
 }
 
-@model AwesomeNetwork.ViewModels.Account.RegisterViewModel
+@model BLL_lib.ViewModels.Account.RegisterViewModel
 
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js"></script>
@@ -32,7 +32,7 @@
             </select>
             <span asp-validation-for="Date" class="text-danger"></span>
 
-            <select asp-for="Month" class="form-control date_control" asp-items="Html.GetEnumSelectList<AwesomeNetwork.ViewModels.Months>()" onchange="PopulateDays()" ID="ddlMonth">
+            <select asp-for="Month" class="form-control date_control" asp-items="Html.GetEnumSelectList<BLL_lib.ViewModels.Months>()" onchange="PopulateDays()" ID="ddlMonth">
                 <option value="">@Model.Month</option>
             </select>
 

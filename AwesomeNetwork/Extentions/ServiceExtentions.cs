@@ -1,12 +1,12 @@
-﻿using AwesomeNetwork.Data.Repository;
-using AwesomeNetwork.Data.UoW;
+﻿using DAL_lib.Repository;
+using DAL_lib.UoW;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AwesomeNetwork.Extentions
+namespace BLL_lib.Extentions
 {
     public static class ServiceExtentions
     {

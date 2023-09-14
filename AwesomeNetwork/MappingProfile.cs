@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using AwesomeNetwork.Models.Users;
-using AwesomeNetwork.ViewModels.Account;
+using BLL_lib.Models.Users;
+using BLL_lib.ViewModels.Account;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -13,22 +13,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20210626213447_InitialCreate.cs" />
-    <Compile Remove="Migrations\20210626213447_InitialCreate.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\img\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.14" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.14" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.14" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.14" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.14" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_lib\BLL_lib.csproj" />
+    <ProjectReference Include="..\DAL_lib\DAL_lib.csproj" />
   </ItemGroup>
 
 </Project>

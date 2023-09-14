@@ -1,11 +1,11 @@
-﻿using AwesomeNetwork.Models.Users;
-using AwesomeNetwork.ViewModels.Account;
+﻿using BLL_lib.Models.Users;
+using BLL_lib.ViewModels.Account;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AwesomeNetwork.Extentions
+namespace BLL_lib.Extentions
 {
     public static class UserFromModel
     {
