@@ -81,7 +81,7 @@ namespace AwesomeNetwork.Controllers.Account
 
             model.Friends = await GetAllFriend(model.User);
 
-            return View("User", model);
+            return View("User", model); 
         }
 
         private async Task<List<User>> GetAllFriend(User user)
