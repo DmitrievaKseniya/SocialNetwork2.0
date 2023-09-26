@@ -13,7 +13,6 @@ namespace DAL_lib
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-            Database.EnsureCreated();
             Database.Migrate();
         }
 
